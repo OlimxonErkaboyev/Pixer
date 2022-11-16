@@ -368,6 +368,7 @@ body{
 }
 .work-item:nth-child(2) .work-type-text{
     width: 592px;
+    margin-right: 32px;
 }
 
 .work-type-text{
@@ -475,6 +476,10 @@ body{
 }
 
 .select{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--main-text-color); 
     width: 100%;
     border: none;
     padding-bottom: 21px;
@@ -483,18 +488,14 @@ body{
     background-color: var(--section-bg-color);
     margin-bottom: 40px;
 }
-.select{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    color: var(--main-text-color); 
-}
+
 
 .send{
     border: none;
     background: #1AAB7B;
     border-radius: 6px;
     padding: 20px 69.5px;
+    color: #FFFFFF;
     
 }
 
