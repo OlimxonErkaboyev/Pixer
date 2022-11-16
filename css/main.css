@@ -201,6 +201,20 @@ body{
     
 }
 
+.hero-more:hover{
+    color: #1AAB7B;
+    background: #FFFFFF;
+    border: 1.5px solid #1AAB7B;
+}
+
+.hero-more:active{
+    color: #FFFFFF;
+    background: #1AAB7B;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+
 .hero-section-video{
     margin-left: 74px;
 }
@@ -320,5 +334,66 @@ body{
 }
 
 /* Services Style Section End  */
+
+/* How Do We Work Styles Start */
+.how-do-we-work-wrapper{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.work-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--main-text-color);
+    margin-bottom: 16px;
+}
+
+.work-desc{
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--main-text-title-color);
+    margin: 0 auto 90px auto;
+    width: 650px;
+}
+
+.work-item{
+    display: flex;
+    margin-bottom: 100px;
+    /* justify-content: center; */
+}
+.work-item:nth-child(2){
+    justify-content: end;
+}
+.work-item:nth-child(2) .work-type-text{
+    width: 592px;
+}
+
+.work-type-text{
+    width: 488px;
+    margin-left: 32px;
+}
+
+.work-type-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: var(--main-text-color);
+}
+
+.work-type-desc{
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-text-title-color);
+
+}
+
+/* How Do We Work Styles End */
 
 /********** Main Style End **********/
