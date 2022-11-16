@@ -212,6 +212,7 @@ body{
 }
 
 .you-tube-video{
+    border: none;
     border-radius: 6px;
 }
 
@@ -483,7 +484,7 @@ body{
     width: 100%;
     border: none;
     padding-bottom: 21px;
-    border-bottom: 1px solid #636F87;
+    border-bottom: 1px solid    ;
     outline: none;
     background-color: var(--section-bg-color);
     margin-bottom: 40px;
