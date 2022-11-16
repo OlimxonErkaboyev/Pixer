@@ -35,6 +35,14 @@
     url('../fonts/plus-jakarta-sans-v3-latin-700.woff') format('woff'), /* Modern Browsers */
 }
 
+:root{
+    --hero-bg-color: #F2F4F6;
+    --main-text-color: #101010;
+    --main-text-title-color: #636F87;
+    --body-bg-color:#FFFFFF;
+    --section-bg-color:#F2F4F6;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -43,5 +51,100 @@ body{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 400;
-
 }
+
+.container{
+    max-width: 1256px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+/* Header Style Start */
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 31px;
+    
+}
+
+.logo-svg{
+    color: #191919;
+    
+}
+
+.logo-svg:hover{
+    opacity: 0.8;
+}
+
+.logo-svg:active{
+    opacity: 0.6;
+}
+
+.header-start{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item-link{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    color: var(--main-text-color);
+    margin-right: 30px;
+}
+
+.navbar-item-link:hover{
+    color: #1AAB7B;
+}
+
+.navbar-item-link:active{
+    color: #1AAB7B;
+    opacity: 0.6;
+}
+
+.header-link{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--body-bg-color);
+    text-decoration: none;
+    
+    background: var(--main-text-color);
+    border-radius: 6px;
+    padding: 12px 24px;  
+}
+
+.header-link:hover{
+    color: #1AAB7B;
+    background: #FFFFFF;
+    border: 1px solid #1AAB7B;;
+}
+.header-link:active{
+    color: #FFFFFF;
+    background: #101010;
+    opacity: 0.6;
+    border: none;
+}
+
+.line-header{
+    border: 1px solid var(--section-bg-color);
+}
+
+/* Header Style End */
+
