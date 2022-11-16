@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-    url('../fonts/plus-jakarta-sans-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/plus-jakarta-sans-v3-latin-regular.woff2') format('woff2'), Super Modern Browsers
     url('../fonts/plus-jakarta-sans-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
 }
 /* plus-jakarta-sans-500 - latin */
@@ -36,21 +36,22 @@
 }
 
 :root{
-    --hero-bg-color: #F2F4F6;
     --main-text-color: #101010;
     --main-text-title-color: #636F87;
-    --body-bg-color:#FFFFFF;
     --section-bg-color:#F2F4F6;
+    --box-color:#1AAB7B;
 }
 
 *{
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 400;
+    
 }
 
 .container{
@@ -122,9 +123,7 @@ body{
     font-size: 14px;
     line-height: 120%;
     text-align: center;
-    color: var(--body-bg-color);
-    text-decoration: none;
-    
+    color: #FFFFFF;
     background: var(--main-text-color);
     border-radius: 6px;
     padding: 12px 24px;  
@@ -148,3 +147,57 @@ body{
 
 /* Header Style End */
 
+
+/*********** Main Style Start ***********/
+/****** Hero Section Style Start ******/
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 92px;
+    padding-bottom: 156px;
+}
+
+.hero-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+.hero-desc{
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-text-title-color);
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 537px;
+}
+
+.hero-more{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    
+    background: #1AAB7B;
+    border-radius: 6px;
+    padding: 20px 40px;
+    
+}
+
+.hero-section-video{
+    margin-left: 74px;
+}
+
+.you-tube-video{
+    border-radius: 6px;
+}
+/****** Hero Section Style End ******/
+/********** Main Style End **********/
