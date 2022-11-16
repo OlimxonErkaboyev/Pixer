@@ -45,6 +45,7 @@
 *{
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -63,6 +64,13 @@ body{
 }
 
 /* Header Style Start */
+
+.header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
 
 .wrapper{
     display: flex;
@@ -94,6 +102,7 @@ body{
 .navbar-list{
     display: flex;
     list-style: none;
+    margin-left: 50px;
 }
 
 .navbar-item-link{
@@ -199,5 +208,117 @@ body{
 .you-tube-video{
     border-radius: 6px;
 }
+
 /****** Hero Section Style End ******/
+
+
+/* Services Style Section Start  */
+
+.services-section{
+    background: var(--section-bg-color);
+}
+
+.services-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 32px; */
+    
+}
+
+.services-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.services-box{
+    width: 384px;
+    height: 358px;
+    border-radius: 6px;
+    border: 2px solid #E1E7ED;
+    padding: 30px 30px 40px 30px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.services-box:nth-child(3){
+    margin-right: 0;
+}
+
+.services-box:hover{
+    background: #1AAB7B;
+}
+
+.services-box:hover .box-title {
+    color: #FFFFFF;
+}
+
+.services-box:hover .box-desc{
+    color: #FFFFFF;
+}
+
+.services-box:hover .services-more{
+    color: #FFFFFF;
+    border-bottom: 1px solid;
+}
+
+.services-box:hover .box-logo{
+    background: #FFFFFF;
+}
+
+.services-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-title{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: var(--main-text-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.box-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E1E7ED;
+    border-radius: 84px;
+    width: 64px;
+    height: 64px;
+}
+
+.box-desc{
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-text-title-color);
+    margin-bottom: 50px;
+    
+}
+
+.services-more{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    font-variant: small-caps;
+    color: var(--main-text-color);
+}
+
+/* Services Style Section End  */
+
 /********** Main Style End **********/
