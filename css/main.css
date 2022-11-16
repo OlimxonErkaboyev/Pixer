@@ -258,23 +258,36 @@ body{
 }
 
 .services-box:hover{
+    background: #FFFFFF;
+}
+.services-box:active{
     background: #1AAB7B;
 }
 
 .services-box:hover .box-title {
+    color: var(--main-text-color);
+}
+.services-box:active .box-title {
     color: #FFFFFF;
 }
 
-.services-box:hover .box-desc{
+.services-box:active .box-desc{
     color: #FFFFFF;
 }
 
 .services-box:hover .services-more{
+    color: var(--main-text-color);
+    border-bottom: 1px solid;
+}
+.services-box:active .services-more{
     color: #FFFFFF;
     border-bottom: 1px solid;
 }
 
 .services-box:hover .box-logo{
+    background: var(--section-bg-color);
+}
+.services-box:active .box-logo{
     background: #FFFFFF;
 }
 
@@ -484,6 +497,20 @@ body{
     padding: 20px 69.5px;
     
 }
+
+.send:hover{
+    color: #1AAB7B;
+    background: #FFFFFF;
+    border: 1.5px solid #1AAB7B;
+}
+
+.send:active{
+    color: #FFFFFF;
+    background: #1AAB7B;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
 
 .form-text{
     font-weight: 400;
