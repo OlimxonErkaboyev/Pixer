@@ -49,7 +49,7 @@
 }
 
 body{
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     
@@ -106,8 +106,6 @@ body{
 }
 
 .navbar-item-link{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -126,8 +124,6 @@ body{
 }
 
 .header-link{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 120%;
@@ -168,8 +164,6 @@ body{
 }
 
 .hero-title{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 140%;
@@ -187,8 +181,6 @@ body{
 }
 
 .hero-more{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 120%;
@@ -245,8 +237,6 @@ body{
 }
 
 .services-title{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 140%;
@@ -295,8 +285,6 @@ body{
 }
 
 .box-title{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 140%;
@@ -324,8 +312,6 @@ body{
 }
 
 .services-more{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
@@ -342,8 +328,6 @@ body{
 }
 
 .work-title{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 140%;
@@ -379,21 +363,143 @@ body{
 }
 
 .work-type-title{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 140%;
     color: var(--main-text-color);
+    width: 488px;
 }
 
 .work-type-desc{
     font-size: 18px;
     line-height: 150%;
     color: var(--main-text-title-color);
-
+    
 }
 
 /* How Do We Work Styles End */
+
+
+/* End Section Style Start */
+.end-section-wrapper{
+    padding:0 104px 200px 104px;
+
+}
+
+.end-section-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color:var(--main-text-color);
+    width: 411px;
+    margin: 0 auto;
+}
+
+.end-section-desc{
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--main-text-title-color);
+    width: 650px;
+    margin: 16px auto 60px auto;
+}
+
+
+
+/* End Section Form Start */
+
+
+
+.end-section-form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: var(--section-bg-color);
+    margin: 0 auto;
+    padding: 64px 312px;
+}
+
+.name{
+    border: none;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #636F87;
+    outline: none;
+    background-color: var(--section-bg-color);
+    margin-bottom: 50px;
+}
+.name{   
+    width: 100%;
+    border: none;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #636F87;
+    outline: none;
+    background-color: var(--section-bg-color);
+    margin-bottom: 50px;
+}
+.name::placeholder{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--main-text-color);  
+}
+.tel{
+    width: 100%;
+    border: none;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #636F87;
+    outline: none;
+    background-color: var(--section-bg-color);
+    margin-bottom: 50px;
+}
+
+.tel::placeholder{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--main-text-color);  
+}
+
+.select{
+    width: 100%;
+    border: none;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #636F87;
+    outline: none;
+    background-color: var(--section-bg-color);
+    margin-bottom: 40px;
+}
+.select{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--main-text-color); 
+}
+
+.send{
+    border: none;
+    background: #1AAB7B;
+    border-radius: 6px;
+    padding: 20px 69.5px;
+    
+}
+
+.form-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--main-text-title-color);
+    margin-top: 24px;
+    
+}
+
+
+
+
+/* End Section Form End */
+
+/* End Section Style End */
 
 /********** Main Style End **********/
